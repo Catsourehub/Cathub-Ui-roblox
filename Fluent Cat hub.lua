@@ -30,7 +30,6 @@ local Themes = {
 		"Amethyst Dark",
 		"Rose",
 		"Sakura"
-		"Cat Hub"
 	},
 	["VSC Dark High Contrast"] = {
 		Accent = Color3.fromHex("#569cd6"), -- Based on keyword color
@@ -124,52 +123,6 @@ local Themes = {
 		Hover = Color3.fromRGB(149, 149, 149),
 		HoverChange = 0.04
 	},
-	["Cat Hub"] = {
-		Accent = Color3.fromRGB(255, 182, 193), -- Hồng phấn nhẹ nhàng, như màu mũi mèo
-
-		AcrylicMain = Color3.fromRGB(50, 50, 60), -- Xám tím đậm, giống lông mèo xám
-		AcrylicBorder = Color3.fromRGB(100, 100, 120), -- Xám tím nhạt hơn cho viền
-		AcrylicGradient = ColorSequence.new(Color3.fromRGB(50, 50, 60), Color3.fromRGB(70, 70, 90)), -- Chuyển màu nhẹ nhàng
-		AcrylicNoise = 0.8, -- Giảm nhiễu để mềm mại hơn
-
-		TitleBarLine = Color3.fromRGB(240, 240, 245), -- Trắng xám nhạt, như lông mèo trắng
-		Tab = Color3.fromRGB(255, 182, 193), -- Hồng phấn đồng bộ với Accent
-
-		Element = Color3.fromRGB(60, 60, 70), -- Xám tím nhạt cho các phần tử
-		ElementBorder = Color3.fromRGB(90, 90, 110), -- Viền đậm hơn một chút
-		InElementBorder = Color3.fromRGB(80, 80, 100), -- Viền trong nhẹ
-		ElementTransparency = 0,
-
-		ToggleSlider = Color3.fromRGB(255, 218, 185), -- Cam đào nhạt, như lông mèo cam
-		ToggleToggled = Color3.fromRGB(255, 255, 255), -- Trắng khi bật, giữ nguyên
-
-		SliderRail = Color3.fromRGB(90, 90, 110), -- Xám tím cho thanh trượt
-
-		DropdownFrame = Color3.fromRGB(70, 70, 85), -- Xám tím đậm hơn cho khung thả xuống
-		DropdownHolder = Color3.fromRGB(80, 80, 95), -- Nhạt hơn một chút
-		DropdownBorder = Color3.fromRGB(50, 50, 60), -- Đồng bộ với AcrylicMain
-		DropdownOption = Color3.fromRGB(173, 216, 230), -- Xanh nhạt, như mắt mèo xanh
-
-		Keybind = Color3.fromRGB(65, 65, 80), -- Xám tím cho phím tắt
-
-		Input = Color3.fromRGB(40, 40, 50), -- Đậm hơn cho ô nhập liệu
-		InputFocused = Color3.fromRGB(80, 80, 100), -- Nhạt hơn khi focus
-		InputIndicator = Color3.fromRGB(255, 218, 185), -- Cam đào nhạt cho con trỏ
-
-		Dialog = Color3.fromRGB(50, 50, 60), -- Đồng bộ với AcrylicMain
-		DialogHolder = Color3.fromRGB(70, 70, 85), -- Nhạt hơn cho nền hộp thoại
-		DialogHolderLine = Color3.fromRGB(60, 60, 75), -- Đậm hơn một chút cho đường viền
-		DialogButton = Color3.fromRGB(60, 60, 70), -- Nút đồng bộ với Element
-		DialogButtonBorder = Color3.fromRGB(90, 90, 110), -- Viền nút
-		DialogBorder = Color3.fromRGB(240, 240, 245), -- Trắng xám nhạt cho viền ngoài
-		DialogInput = Color3.fromRGB(40, 40, 50), -- Ô nhập liệu đồng bộ với Input
-		DialogInputLine = Color3.fromRGB(255, 218, 185), -- Cam đào nhạt cho đường nhập liệu
-
-		Text = Color3.fromRGB(255, 245, 238), -- Trắng kem, như lông mèo trắng
-		SubText = Color3.fromRGB(180, 180, 200), -- Xám tím nhạt cho văn bản phụ
-		Hover = Color3.fromRGB(120, 120, 140), -- Xám tím sáng hơn khi hover
-		HoverChange = 0.05 -- Tăng nhẹ độ thay đổi khi hover
-	},
 	["Amethyst Dark"] = {
 		Accent = Color3.fromHex("#b133ff"),
 
@@ -218,49 +171,49 @@ local Themes = {
 	},
 	Dark = {
 		Name = "Dark",
-		Accent = Color3.fromRGB(96, 205, 255),
+		Accent = Color3.fromRGB(255, 160, 120), -- Warm peach (inspired by a tabby's orange highlights)
 
-		AcrylicMain = Color3.fromRGB(60, 60, 60),
-		AcrylicBorder = Color3.fromRGB(90, 90, 90),
-		AcrylicGradient = ColorSequence.new(Color3.fromRGB(40, 40, 40), Color3.fromRGB(40, 40, 40)),
+		AcrylicMain = Color3.fromRGB(40, 45, 60), -- Deep blue-gray (Siamese-inspired base)
+		AcrylicBorder = Color3.fromRGB(70, 80, 100), -- Slightly lighter blue-gray
+		AcrylicGradient = ColorSequence.new(Color3.fromRGB(30, 35, 50), Color3.fromRGB(45, 50, 70)), -- Subtle gradient for depth
 		AcrylicNoise = 0.9,
 
-		TitleBarLine = Color3.fromRGB(75, 75, 75),
-		Tab = Color3.fromRGB(120, 120, 120),
+		TitleBarLine = Color3.fromRGB(60, 70, 90), -- Cool gray with a hint of blue
+		Tab = Color3.fromRGB(100, 110, 140), -- Soft slate blue (elegant and modern)
 
-		Element = Color3.fromRGB(120, 120, 120),
-		ElementBorder = Color3.fromRGB(35, 35, 35),
-		InElementBorder = Color3.fromRGB(90, 90, 90),
+		Element = Color3.fromRGB(110, 120, 150), -- Lightened blue-gray (sleek and refined)
+		ElementBorder = Color3.fromRGB(25, 30, 40), -- Darker, richer border
+		InElementBorder = Color3.fromRGB(80, 90, 120), -- Mid-tone blue for contrast
 		ElementTransparency = 0.87,
 
-		ToggleSlider = Color3.fromRGB(120, 120, 120),
-		ToggleToggled = Color3.fromRGB(0, 0, 0),
+		ToggleSlider = Color3.fromRGB(130, 140, 170), -- Pale blue-gray (smooth and calming)
+		ToggleToggled = Color3.fromRGB(15, 20, 30), -- Near-black with a blue undertone
 
-		SliderRail = Color3.fromRGB(120, 120, 120),
+		SliderRail = Color3.fromRGB(130, 140, 170), -- Matching the toggle for harmony
 
-		DropdownFrame = Color3.fromRGB(160, 160, 160),
-		DropdownHolder = Color3.fromRGB(45, 45, 45),
-		DropdownBorder = Color3.fromRGB(35, 35, 35),
-		DropdownOption = Color3.fromRGB(120, 120, 120),
+		DropdownFrame = Color3.fromRGB(140, 150, 180), -- Light blue-gray (clean and crisp)
+		DropdownHolder = Color3.fromRGB(35, 40, 55), -- Deepened holder for contrast
+		DropdownBorder = Color3.fromRGB(20, 25, 35), -- Rich, dark border
+		DropdownOption = Color3.fromRGB(110, 120, 150), -- Consistent with elements
 
-		Keybind = Color3.fromRGB(120, 120, 120),
+		Keybind = Color3.fromRGB(110, 120, 150), -- Unified with elements
 
-		Input = Color3.fromRGB(160, 160, 160),
-		InputFocused = Color3.fromRGB(10, 10, 10),
-		InputIndicator = Color3.fromRGB(150, 150, 150),
+		Input = Color3.fromRGB(150, 160, 190), -- Brightened blue-gray (inviting)
+		InputFocused = Color3.fromRGB(10, 15, 25), -- Darker focus for emphasis
+		InputIndicator = Color3.fromRGB(200, 180, 160), -- Creamy beige (Siamese cream accent)
 
-		Dialog = Color3.fromRGB(45, 45, 45),
-		DialogHolder = Color3.fromRGB(35, 35, 35),
-		DialogHolderLine = Color3.fromRGB(30, 30, 30),
-		DialogButton = Color3.fromRGB(45, 45, 45),
-		DialogButtonBorder = Color3.fromRGB(80, 80, 80),
-		DialogBorder = Color3.fromRGB(70, 70, 70),
-		DialogInput = Color3.fromRGB(55, 55, 55),
-		DialogInputLine = Color3.fromRGB(160, 160, 160),
+		Dialog = Color3.fromRGB(40, 45, 65), -- Slightly bluer dialog base
+		DialogHolder = Color3.fromRGB(30, 35, 50), -- Deepened holder
+		DialogHolderLine = Color3.fromRGB(20, 25, 40), -- Rich, dark line
+		DialogButton = Color3.fromRGB(50, 60, 80), -- Cool-toned button
+		DialogButtonBorder = Color3.fromRGB(90, 100, 130), -- Lightened border
+		DialogBorder = Color3.fromRGB(60, 70, 100), -- Harmonious blue-gray
+		DialogInput = Color3.fromRGB(55, 65, 85), -- Subtle blue input
+		DialogInputLine = Color3.fromRGB(200, 180, 160), -- Creamy beige highlight
 
-		Text = Color3.fromRGB(240, 240, 240),
-		SubText = Color3.fromRGB(170, 170, 170),
-		Hover = Color3.fromRGB(120, 120, 120),
+		Text = Color3.fromRGB(245, 235, 220), -- Warm off-white (cat fur glow)
+		SubText = Color3.fromRGB(180, 170, 160), -- Soft taupe (tabby undertone)
+		Hover = Color3.fromRGB(130, 140, 170), -- Matches sliders for consistency
 		HoverChange = 0.07,
 	},
 	Darker = {
